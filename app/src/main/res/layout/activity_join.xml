@@ -221,6 +221,7 @@
                 android:layout_width="200dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="@dimen/margin_default"
+                android:alpha="0.5"
                 android:text="@string/join_start"
                 app:cornerRadius="30dp"
                 app:layout_constraintEnd_toEndOf="parent"

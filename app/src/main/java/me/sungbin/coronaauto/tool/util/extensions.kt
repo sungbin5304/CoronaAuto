@@ -1,4 +1,4 @@
-package me.sungbin.spakchat.util
+package me.sungbin.coronaauto.tool.util
 
 import android.widget.EditText
 import java.util.*

@@ -3,7 +3,7 @@ package me.sungbin.coronaauto
 import android.app.Application
 import android.os.StrictMode
 import dagger.hilt.android.HiltAndroidApp
-import me.sungbin.coronaauto.util.ExceptionUtil
+import me.sungbin.coronaauto.tool.util.ExceptionUtil
 
 
 /**

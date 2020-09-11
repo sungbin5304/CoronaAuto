@@ -1,4 +1,4 @@
-package me.sungbin.coronaauto.util
+package me.sungbin.coronaauto.tool.util
 
 import android.content.Context
 import com.sungbin.sungbintool.util.Logger
