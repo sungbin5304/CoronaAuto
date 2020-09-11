@@ -1,0 +1,22 @@
+<resources>
+    <!-- global string -->
+    <string name="app_name">CoronaAuto</string>
+    <string name="storage">내부 메모리</string>
+    <string name="loading">불러오는 중…</string>
+
+    <string name="join_welcome">환영합니다!</string>
+    <string name="join_need_setting_before_start">시작 전 몇가지 설정이 필요해요</string>
+    <string name="join_storage_permission">저장소 접근 권한</string>
+    <string name="join_storage_permission_description">학생 정보를 저장하기 위해 필요해요.</string>
+    <string name="join_allow_permission">권한 허용하기</string>
+    <string name="join_name">이름 (예시_홍길동)</string>
+    <string name="join_birthday">생일 (예시_021202)</string>
+    <string name="join_school">학교명 (예시_선린인터넷고등학교)</string>
+    <string name="join_area">학교 위치 (예시_서울)</string>
+    <string name="join_start">시작하기</string>
+
+    <string name="exception_except">오류가 발생했습니다 😔</string>
+    <string name="exception_preview_except">FATAL EXCEPTION: main exception</string>
+    <string name="join_input_all">모두 입력해 주세요.</string>
+
+</resources>
