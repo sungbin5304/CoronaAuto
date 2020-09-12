@@ -72,6 +72,9 @@ class JoinActivity : AppCompatActivity() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            StorageUtil.createFolder(PathManager.MAIN, true)
+            StorageUtil.createFolder(PathManager.SCHOOL, true)
+            StorageUtil.createFolder(PathManager.STUDENT, true)
             btn_request_storage.apply {
                 alpha = 0.5f
                 text = context.getString(R.string.join_permission_granted)
@@ -117,7 +120,7 @@ class JoinActivity : AppCompatActivity() {
                                 ToastUtil.show(
                                     applicationContext,
                                     getString(R.string.join_welcome),
-                                    ToastUtil.SHORT, ToastUtil.WARNING
+                                    ToastUtil.SHORT, ToastUtil.SUCCESS
                                 )
                             }
                         }
