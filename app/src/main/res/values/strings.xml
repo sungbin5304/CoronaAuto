@@ -14,12 +14,12 @@
     <string name="join_school">학교명 (예시_선린인터넷고등학교)</string>
     <string name="join_area">학교 위치 (예시_서울)</string>
     <string name="join_start">시작하기</string>
-
-    <string name="exception_except">오류가 발생했습니다 😔</string>
-    <string name="exception_preview_except">FATAL EXCEPTION: main exception</string>
-
     <string name="join_input_all">모두 입력해 주세요.</string>
     <string name="join_school_search_error">학교를 검색할 수 없습니다.\n학교의 이름과 지역을 정확히 입력해 주세요</string>
     <string name="join_school_search_none">학교를 검색할 수 없습니다.</string>
+
+    <string name="exception_except">오류가 발생했습니다 😔</string>
+    <string name="exception_preview_except">FATAL EXCEPTION: main exception</string>
+    <string name="join_permission_granted">권한 부여됨</string>
 
 </resources>
